@@ -15,7 +15,7 @@ use {{config('amranidev.config.modelNameSpace')}}\{{ucfirst(str_singular($key))}
  * Class {{$names->tableName()}}Controller
  *
  * @author The scaffold-interface created at {{date("Y-m-d h:i:sa")}}
- * @link https://github.com/amranidev/scaffold-interfac
+ * @link https://github.com/amranidev/scaffold-interface
  */
 class {{$names->tableName()}}Controller extends Controller
 {
